@@ -27,7 +27,7 @@ WIN_COMBINATIONS = [
   end
   
   def player_move(board, position, token)
-    index = position.to_i -1
+    index = position.to_i-1
     board[index] = token
   end
   
