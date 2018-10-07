@@ -96,7 +96,11 @@ def draw?(board)
 end
 
 def over?
-  
+  if won?(board) || draw?(board)
+    return true
+  else
+    return false
+  end
 end
 
 def winner
